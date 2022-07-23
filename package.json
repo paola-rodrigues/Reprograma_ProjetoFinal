@@ -20,6 +20,8 @@
   "homepage": "https://github.com/paola-rodrigues/Reprograma_ProjetoFinal#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.1"
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6"
   }
 }
