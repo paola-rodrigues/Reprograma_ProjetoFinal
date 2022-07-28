@@ -6,6 +6,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
+const usuarioRoutes= require("./routes/usuarioRoutes");
 
 app.get('/', (req, res) => {
     res.status(200).send({
@@ -16,5 +17,6 @@ app.get('/', (req, res) => {
 
 });
 db.connect();
+app.use("/users", usuarioRoutes);
 
 module.exports = app;
