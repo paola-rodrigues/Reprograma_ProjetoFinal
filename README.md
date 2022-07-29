@@ -8,25 +8,26 @@
 <br>
 
 ## 💻 Sobre o projeto 
-<br>
+</br>
 
 API desenvolvida como Projeto Final com o auxílio da professora Hannah Freitas para a conclusão do curso de Backend da Reprograma.
 
 <p align="justify">Este projeto nasceu da minha vontade de fazer o descarte do celular corretamente, onde encontrei dados informando que a maioria dos brasileiros (87%) guarda algum tipo de eletroeletrônico sem utilidade em casa e mais de 30% ficam com eles por mais de um ano; Os brasileiros ainda não sabem o que é resíduo eletrônico e como descartá-lo, segundo pesquisa de 2021 da Green Eletron; Apenas 7% dão destino correto ao resíduo eletrônico.
 
+<p align="justify">A API permite o cadastro de usuários que estão querendo fazer uma pesquisa dos locais de descarte do material eletrônico, onde será possível realizar o cadastro, pesquisa locais de descarte, atualizar usuário/local e deleta usuário/local.
 
 ## 📚 Aprendizados
 
 > ⚠️ O projeto final consiste em uma API fundamentada no CRUD. O CRUD é um acrônimo para Create(CRIAR), Read(LER-CONSULTAR), Update(ATUALIZAR) e Delete(DELETAR). 
   
-<br>
+</br>
 
-| OPERAÇÃO | OPERAÇÃO |
-| --- | --- |
-| C`REATE` | Criar um novo registro |
-| R`EAD` | Ler um registro, ou uma lista de registros |
-| U`PDATE` | Atualizar um registro |
-| D`ELETE` | Excluir um registro |
+| OPERAÇÃO | Descrição                                  |
+| ---      | ---                                        |
+| C`REATE` | Criar um novo registro                     |
+| R`EAD`   | Ler um registro, ou uma lista de registros |
+| U`PDATE` | Atualizar um registro                      |
+| D`ELETE` | Excluir um registro                        |
 
 <br>
 
@@ -64,8 +65,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
    |    |
    |    |- 📁 controller
    |         |- 📑 localDescarteController.js
-   |         |- 📑 usuarioController.js
-   |     
+   |         |- 📑 usuarioController.js   |     
    |
    |    |- 📁 database
    |         |- 📑 mongoConfig.js
@@ -73,8 +73,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
    |
    |    |- 📁 models
    |         |- 📑 localDescarteSchema.js
-   |         |- 📑 usuarioSchema.js
-   |         
+   |         |- 📑 usuarioSchema.js   |         
    |
    |    |- 📁 routes
    |         |- 📑 localDescarteRoutes.js    |         
@@ -123,3 +122,50 @@ Depois de tudo configurado, é hora de rodar a nossa aplicação, para executá-
 npm start
 ```
 <br>
+
+## 🔃 Retorna teste com apresentação: 
+<br>
+
+| Método HTTP  | Endpoint                     | Descrição                            |
+| ------------ | ---------------------------- | ------------------------------------ |
+| GET          | `http://localhost:7080/`     |  Mensagem de apresentação            |
+
+</br>
+
+## 🔃 Manipulação das Rotas de Usuários:
+
+<br>
+
+| Método HTTP  | Endpoint                | Descrição                            |
+| ------------ | ----------------------- | ------------------------------------ |
+| GET          | `/users`                | Retorna todos os usuários            |
+| POST         | `/users/create`         | Cria/cadastra um novo usuário        |
+| PUT          | `/users/update/:id`     | Altera informações de um usuário     |
+| DELETE       | `/users/delete/:id`     | Deleta um usuário específico         |
+
+</br>
+
+
+## 🔃 Manipulação das Rotas de locais de descarte do maaterial eletrônico:
+
+<br>
+
+| Método HTTP  | Endpoint                | Descrição                            |
+| ------------ | ----------------------- | ------------------------------------ |
+| GET          | `/local`                | Retorna todos os locais              |
+| POST         | `/local/create`         | Cria/cadastra um novo local          |
+| PUT          | `/local/update/:id`     | Altera informações de um local       |
+| DELETE       | `/local/delete/:id`     | Deleta um local específico           |
+
+</br>
+
+
+## 👨‍💻 Autora
+
+<td align="center"><a href="https://github.com/paola-rodrigues">
+<img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/88107960?v=4" width="200px;" alt=""/> </td><br> 
+
+- [linkedin](https://www.linkedin.com/in/paoladonascimento/)
+
+
+## 🥰 Agradecimentos:
