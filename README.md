@@ -3,7 +3,7 @@
     <p align="center">Projeto Final {Reprograma On15}<p>
 </h1>
 <p align="center">
-<img src="./assets/frame_1.png width="350" height="300"/>
+<img src="./assets/frame_1.png" width="350" height="300"/>
 </p>
 <br>
 
