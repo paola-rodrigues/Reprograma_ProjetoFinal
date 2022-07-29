@@ -7,6 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 const usuarioRoutes= require("./routes/usuarioRoutes");
+const localDescarte= require("./routes/localDescarteRoutes");
 
 app.get('/', (req, res) => {
     res.status(200).send({
@@ -18,5 +19,6 @@ app.get('/', (req, res) => {
 });
 db.connect();
 app.use("/users", usuarioRoutes);
+app.use("/local", localDescarte);
 
 module.exports = app;
