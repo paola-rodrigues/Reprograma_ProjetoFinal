@@ -9,6 +9,7 @@
 
 ## 💻 Sobre o projeto 
 <br>
+
 API desenvolvida como Projeto Final com o auxílio da professora Hannah Freitas para a conclusão do curso de Backend da Reprograma.
 
 <p align="justify">Este projeto nasceu da minha vontade de fazer o descarte do celular corretamente, onde encontrei dados informando que a maioria dos brasileiros (87%) guarda algum tipo de eletroeletrônico sem utilidade em casa e mais de 30% ficam com eles por mais de um ano; Os brasileiros ainda não sabem o que é resíduo eletrônico e como descartá-lo, segundo pesquisa de 2021 da Green Eletron; Apenas 7% dão destino correto ao resíduo eletrônico.
@@ -99,10 +100,10 @@ Essas instruções fornecerão uma cópia do projeto instalado e funcionando em 
 ### 1º Passo - Clonar o respositório
 Comece clonando esse projeto para a sua máquina local.
 ```sh
-git clone https://github.com/anacarolliny/ReprogramaProjetoFinal
+git clone https://github.com/paola-rodrigues/Reprograma_ProjetoFinal
 ```
 ```sh
-cd ProjetoFinalReprograma> 
+cd ProjetoFinal> 
 ```
 
 ### 2º Passo - Instalando as dependências
