@@ -70,7 +70,7 @@ const updateLocalById = async (req, res) => {
       const savedlocal= await localDescarte.save();
 
       return res.status(200).send({
-        message: "Usuário atualizada com sucesso!",
+        message: "Local atualizado com sucesso!",
         savedlocal
        });
     };

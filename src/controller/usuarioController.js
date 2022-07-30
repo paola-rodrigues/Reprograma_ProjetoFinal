@@ -76,7 +76,7 @@ const updateUserById = async (req, res) => {
     const savedUser = await findUser.save();
 
     return res.status(200).send({
-      message: "Usuário atualizada com sucesso!",
+      message: "Usuário atualizado com sucesso!",
       savedUser
     })
 
