@@ -147,7 +147,7 @@ npm start
 </br>
 
 
-## 🔃 Manipulação das Rotas de locais de descarte do maaterial eletrônico:
+## 🔃 Manipulação das Rotas de locais de descarte do material eletrônico:
 
 <br>
 
