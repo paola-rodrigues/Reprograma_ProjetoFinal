@@ -68,8 +68,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
    |         |- 📑 usuarioController.js   |     
    |
    |    |- 📁 database
-   |         |- 📑 mongoConfig.js
-   |
+   |         |- 📑 mongoConfig.js   |
    |
    |    |- 📁 models
    |         |- 📑 localDescarteSchema.js
@@ -79,14 +78,14 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
    |         |- 📑 localDescarteRoutes.js    |         
    |         |- 📑 usuarioRoutes.js
    |
-   |    |- 📑 app.js
-   |       
+   |    |- 📑 app.js   |      
    |
    |- 📑 .env
    |- 📑 .env.example
    |- 📑 .gitignore
    |- 📑 package-lock.json
    |- 📑 package.json
+   |- 📑 Procfile
    |- 📑 README.md
    |- 📑 server.js
 ```
