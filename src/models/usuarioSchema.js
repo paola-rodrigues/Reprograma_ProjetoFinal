@@ -19,7 +19,7 @@ const usuarioSchema = new mongoose.Schema({
         type: String,
         required: true        
     },
-    dataColeta: {
+    data: {
         type: Date,
         default: new Date()
     }

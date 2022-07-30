@@ -5,6 +5,8 @@ const controller = require("../controller/localDescarteController");
 
 router.get("/all", controller.getAll);
 
+router.get("/filtrar/:id", controller.localById);
+
 router.post("/create", controller.createLocal);
 
 router.put("/update/:id", controller.updateLocalById);

@@ -3,9 +3,11 @@ const router = express.Router();
 
 const controller = require("../controller/usuarioController");
 
+router.post("/create", controller.createUser);
+
 router.get("/all", controller.getAll);
 
-router.post("/create", controller.createUser);
+router.get("/filtrar/:id", controller.userById);
 
 router.put("/update/:id", controller.updateUserById);
 
