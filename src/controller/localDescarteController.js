@@ -87,10 +87,11 @@ const updateLocalById = async (req, res) => {
 const deleteLocalById  = async (req, res) => {
   try {
     const requestedLocal = await LocalDescarteSchema.findByIdAndDelete(req.params.id);
+
     if(requestedLocal == null) {
       return res.status(404).send({message: "Id informada não encontrada!"})
     };
-    return res.status(200).send({message: "Local deletado com sucesso!"});
+    return res.status(200).send({message: "Cadastro deletado com sucesso!"});
 
   } catch (error) {
     return res.status(500).send({
