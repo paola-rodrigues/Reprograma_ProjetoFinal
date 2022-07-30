@@ -140,7 +140,7 @@ npm start
 | Método HTTP  | Endpoint                | Descrição                            |
 | ------------ | ----------------------- | ------------------------------------ |
 | GET          | `/users`                | Retorna todos os usuários            |
-| GET          | `/users/filtrar/:id/`   | Retorna ID do usuário                |
+| GET          | `/users/filtrar/:id`   | Retorna ID do usuário               n |
 | POST         | `/users/create`         | Cria/cadastra um novo usuário        |
 | PUT          | `/users/update/:id`     | Altera informações de um usuário     |
 | DELETE       | `/users/delete/:id`     | Deleta um usuário específico         |
@@ -155,7 +155,7 @@ npm start
 | Método HTTP  | Endpoint                | Descrição                            |
 | ------------ | ----------------------- | ------------------------------------ |
 | GET          | `/local`                | Retorna todos os locais para descarte|
-| GET          | `/local/filtrar/:id/`   | Retorna ID do local de descarte      |
+| GET          | `/local/filtrar/:id`   | Retorna ID do local de descarte       |
 | POST         | `/local/create`         | Cria/cadastra um novo local          |
 | PUT          | `/local/update/:id`     | Altera informações de um local       |
 | DELETE       | `/local/delete/:id`     | Deleta um local específico           |
@@ -173,10 +173,9 @@ npm start
 
 ## 🥰 Agradecimentos:
 <br>
-<h1 align="center">
- <p align="center">Eu quero agradecer a Deus, e também a todos os meus familiares principalmente meus pais, pois são     minha fortaleza. Agradeço a todas da Reprograma pela oportunidade e disposição para ajudar. 
-PARA TODOS, UM ETERNO AGRADECIMENTO 
-TODAS DA REPROGRAMA SÃO INCRÍVEIS "Gratidão"
-Obrigada!!</p >
-</h1>
+
+ <p align="center">Eu quero agradecer a Deus e também a todos da minha família  principalmente meus pais. Agradeço a todas da Reprograma pela oportunidade e disposição para ajudar. </p >
+<p align="center">TODAS DA REPROGRAMA, SÃO INCRÍVEIS "Gratidão" MEU ETERNO AGRADECIMENTO </p >
+<p align="center">Obrigada!!</p >
+
 </br>
